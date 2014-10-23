@@ -24,6 +24,7 @@ public class MainActivity extends Activity {
 				Intent intent= new Intent(v.getContext(),Activity2.class);
 				startActivityForResult(intent,0);
 			}
+			
 		});
 		//addButtonClickListener();
 	}
