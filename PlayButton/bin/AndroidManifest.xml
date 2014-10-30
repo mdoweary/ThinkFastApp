@@ -23,6 +23,6 @@
             </intent-filter>
         </activity>
         <activity android:name="Activity2"></activity>
-    </application>
-
+        <activity android:name="com.example.playbutton.Activity3"></activity>
+	</application>
 </manifest>
