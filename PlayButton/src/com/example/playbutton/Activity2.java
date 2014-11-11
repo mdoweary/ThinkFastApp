@@ -22,8 +22,8 @@ public class Activity2 extends Activity{
 		
 		//image = (ImageView) findViewById(R.id.imageView1);
 		Button easy = (Button)findViewById(R.id.easy);
-		Button medium = (Button)findViewById(R.id.button2);
-		Button hard = (Button)findViewById(R.id.button3);
+		Button medium = (Button)findViewById(R.id.medium);
+		Button hard = (Button)findViewById(R.id.hard);
 		
 		easy.setOnClickListener(new OnClickListener(){
 			public void onClick(View v){
@@ -33,8 +33,26 @@ public class Activity2 extends Activity{
 			}
 			
 		});
+		medium.setOnClickListener(new OnClickListener(){
+			public void onClick(View v){
+				//Change the activity
+				Intent intent= new Intent(v.getContext(),Activity3.class);
+				startActivityForResult(intent,0);
+				//image.setImageResource(R.drawable.iberty);
+			}
+			
+		});
+		hard.setOnClickListener(new OnClickListener(){
+			public void onClick(View v){
+				//Change the activity
+				Intent intent= new Intent(v.getContext(),Activity3.class);
+				startActivityForResult(intent,0);
+				//image.setImageResource(R.drawable.iberty);
+			}
+			
+		});
 	
 	
-}
+	}
 }
 

@@ -10,6 +10,47 @@
         android:layout_height="wrap_content"
         android:src="@drawable/iberty"/>
 
-</LinearLayout>
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What is the name of this monument?" />
+    
+    <RadioGroup 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/question1">
+        <RadioButton
+            android:id="@+id/liberty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Statue of Liberty" />
+
+        <RadioButton
+            android:id="@+id/brooklyn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Brooklyn Bridge" />
+
+        <RadioButton
+            android:id="@+id/empire"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Empire State Building" />
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+
+        
+    
+    </RadioGroup>
+  
+
+</LinearLayout> 
+
+
 
 

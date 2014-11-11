@@ -12,14 +12,14 @@
         android:text="Easy" />
 
       <Button
-          android:id="@+id/button2"
+          android:id="@+id/medium"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:layout_marginTop="15dp"
           android:text="Medium" />
 
      <Button
-         android:id="@+id/button3"
+         android:id="@+id/hard"
          android:layout_width="match_parent"
          android:layout_height="wrap_content"
          android:layout_marginTop="15dp"

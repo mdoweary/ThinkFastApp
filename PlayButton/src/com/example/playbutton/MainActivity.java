@@ -17,7 +17,7 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 		Button play = (Button)findViewById(R.id.button1);
 		Button Continue = (Button)findViewById(R.id.button2);
-		Button settings = (Button)findViewById(R.id.button3);
+		Button settings = (Button)findViewById(R.id.button4);
 		
 		play.setOnClickListener(new OnClickListener(){
 			public void onClick(View v){
