@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:src="@drawable/alps" />
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What is the name of this mountain?" />
+    
+     <RadioGroup 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/question3">
+
+        <RadioButton
+            android:id="@+id/everest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mt.Everest" />
+
+        <RadioButton
+            android:id="@+id/alps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Appalachian Mountains" />
+
+        <RadioButton
+            android:id="@+id/rocky"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rocky Mountains" />
+        
+        <Button
+            android:id="@+id/submit3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+     </RadioGroup>
+        
+    
+
+</LinearLayout>

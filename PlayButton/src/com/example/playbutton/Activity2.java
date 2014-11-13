@@ -36,7 +36,7 @@ public class Activity2 extends Activity{
 		medium.setOnClickListener(new OnClickListener(){
 			public void onClick(View v){
 				//Change the activity
-				Intent intent= new Intent(v.getContext(),Activity3.class);
+				Intent intent= new Intent(v.getContext(),Activity4.class);
 				startActivityForResult(intent,0);
 				//image.setImageResource(R.drawable.iberty);
 			}
@@ -45,7 +45,7 @@ public class Activity2 extends Activity{
 		hard.setOnClickListener(new OnClickListener(){
 			public void onClick(View v){
 				//Change the activity
-				Intent intent= new Intent(v.getContext(),Activity3.class);
+				Intent intent= new Intent(v.getContext(),Activity5.class);
 				startActivityForResult(intent,0);
 				//image.setImageResource(R.drawable.iberty);
 			}

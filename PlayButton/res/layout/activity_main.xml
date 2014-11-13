@@ -27,8 +27,6 @@
         android:layout_centerVertical="true"
         android:text="Continue" />
 
-    
-
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
@@ -36,7 +34,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="56dp"
-        android:text="Flashing Pictures"
+        android:text="Quiz It"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <Button
